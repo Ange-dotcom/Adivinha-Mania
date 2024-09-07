@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinha Mania</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Adivinha Mania</h1>
+    </header>
+
+    <main>
+        <h2>Escolha seu tema</h2>
+        <section>
+            <input type="text" id="Input" placeholder="Digite um tema">
+            <button onclick="Pesquisar()">Pesquisar</button>
+        </section>
+
+        <h3>Outras opções:</h3>
+        <div id="temas">
+            <button onclick="iniciaJogo('frutas')">Frutas</button>
+            <button onclick="iniciaJogo('animais')">Animais</button>
+            <button onclick="iniciaJogo('países')">Países</button>
+        </div>
+
+        <div id="message"></div>
+
+        <div id="game" style="display:none;">
+            <h2 id="titulo-tema"></h2>
+            <div id="word-grid"></div>
+
+            <input type="text" id="guess" maxlength="5" placeholder="Digite sua tentativa" onkeyup="handleGuess(event)">
+            <p id="game-message"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>2024 - Adivinha Mania. Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

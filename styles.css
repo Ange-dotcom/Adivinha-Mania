@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFE4E1; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+header {
+    background-color: #fbf8f8; /* Cor de fundo */
+    color: #8B6969; /* Cor do texto */
+    padding: 5px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    border-radius: 30px; /* Borda arredondada */
+    width: 30%; /* Largura do header */
+    margin: 20px auto; /* Centraliza o header */
+}
+
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #8B6969; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1px; /* Reduz o espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: fixed; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 0.8rem; /* Reduz o tamanho da fonte */
+}
+
+h1, h2 {
+    color: #333; /* Cor do texto dos títulos */
+}
+
+input {
+    padding: 10px; /* Espaçamento interno */
+    width: 200px; /* Largura do input */
+    margin: 10px 0; /* Margem superior e inferior */
+}
+
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 10px; /* Margem ao redor do botão */
+    background-color: #FF4500; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Borda arredondada */
+    cursor: pointer; /* Altera o cursor para um ponteiro */
+}
+
+button:hover {
+    background-color: #FF4500; /* Cor de fundo quando o botão é hovered */
+}
+
+#themes {
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+#game {
+    margin-top: 20px; /* Margem superior */
+}
+
+#word-grid {
+    display: grid; /* Usa grid layout */
+    grid-template-rows: repeat(5, 50px); /* 5 linhas */
+    grid-template-columns: repeat(5, 50px); /* 5 colunas */
+    grid-gap: 10px; /* Espaçamento entre as células */
+    justify-content: center; /* Centraliza o grid horizontalmente */
+    margin-top: 20px; /* Margem superior */
+}
+
+#word-grid div {
+    width: 50px; /* Largura das células */
+    height: 50px; /* Altura das células */
+    border: 2px solid #ccc; /* Borda das células */
+    display: flex; /* Usa flexbox dentro das células */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    font-size: 24px; /* Tamanho da fonte */
+    background-color: white; /* Cor de fundo das células */
+}
+
+#message {
+    margin-top: 10px; /* Margem superior */
+    font-size: 18px; /* Tamanho da fonte */
+    color: red; /* Cor do texto */
+}
+
+#guess {
+    margin-top: 10px; /* Margem superior */
+}
