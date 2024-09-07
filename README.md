@@ -7,11 +7,7 @@ Bem-vindo ao projeto do **Adivinha Mania**! Este é um jogo simples onde o usuá
 - [Visão Geral](#visão-geral)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Usadas](#tecnologias-usadas)
-- [Instalação](#instalação)
 - [Uso](#uso)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Visão Geral
 
